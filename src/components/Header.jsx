@@ -4,7 +4,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { useNavigation } from '../context/NavigationContext.jsx';
 import { useTheme } from '../context/ThemeContext.jsx';
 
-const NAV_LINKS = [{ id: 'darby', label: 'Work', to: '/#darby' }];
+const NAV_LINKS = [];
 
 const Header = () => {
   const { activeSection, isNavOpen, setNavOpen } = useNavigation();
@@ -70,7 +70,7 @@ const Header = () => {
               data-active={activeSection === 'contact' ? 'true' : undefined}
               onClick={handleNavLinkClick}
             >
-              Book a conversation
+              Contact
             </Link>
           </li>
         </ul>
