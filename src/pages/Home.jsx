@@ -62,7 +62,7 @@ const Home = () => {
           <p className="eyebrow">Full-stack developer</p>
           <h1>Raskkal</h1>
           <p className="intro">
-            Hi! I'm Raskkal, a Melbourne-based engineer. For over four years I've been delivering applications and solutions for Australia's largest bank's web applications. Open to freelance projects as well, happy to discuss scope, timelines, and outcomes. Get in contact with me below
+           Raskkal is a Melbourne-based software engineer with 4+ years building online-banking applications at NAB specialising in web development. Open to freelance projects and available to discuss scope, timelines, and outcomes. Contact below.
           </p>
           <div className="hero__actions">
             <Link className="btn btn--primary" to="/contact">
