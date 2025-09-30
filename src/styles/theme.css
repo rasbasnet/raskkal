@@ -1,0 +1,69 @@
+:root {
+  color-scheme: light;
+  --font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-family-heading: 'Inter Tight', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-family-mono: 'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;
+
+  --space-2xs: 4px;
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+
+  --max-width-content: min(1120px, 100% - clamp(48px, 8vw, 160px));
+  --max-width-wide: min(1280px, 100% - clamp(48px, 6vw, 160px));
+
+  --transition-duration: 160ms;
+  --transition-timing: ease;
+
+  --color-bg: #f6f5f1;
+  --color-surface: #ffffff;
+  --color-surface-muted: #f0eeea;
+  --color-border: rgba(17, 18, 23, 0.12);
+  --color-text: #111217;
+  --color-text-muted: rgba(17, 18, 23, 0.65);
+  --color-text-subtle: rgba(17, 18, 23, 0.48);
+  --color-accent: #111217;
+  --color-accent-soft: rgba(17, 18, 23, 0.08);
+  --color-success: #1caa72;
+  --shadow-soft: 0 28px 60px -40px rgba(17, 18, 23, 0.28);
+  --shadow-ring: 0 0 0 2px rgba(17, 18, 23, 0.08);
+  --moon-inner: rgba(255, 255, 255, 0.65);
+  --moon-outer: rgba(225, 222, 212, 0.35);
+  --moon-ring: rgba(211, 206, 197, 0.5);
+  --moon-shadow: rgba(204, 198, 189, 0.25);
+  --moon-core: rgba(255, 255, 255, 0.9);
+  --moon-glow: rgba(233, 230, 222, 0.5);
+}
+
+:root.theme-dark,
+body[data-theme='dark'] {
+  color-scheme: dark;
+  --color-bg: #08090e;
+  --color-surface: #11131a;
+  --color-surface-muted: #161924;
+  --color-border: rgba(244, 244, 245, 0.12);
+  --color-text: #f4f4f5;
+  --color-text-muted: rgba(244, 244, 245, 0.72);
+  --color-text-subtle: rgba(244, 244, 245, 0.52);
+  --color-accent: #f4f4f5;
+  --color-accent-soft: rgba(244, 244, 245, 0.12);
+  --color-success: #50e6a1;
+  --shadow-soft: 0 28px 60px -40px rgba(0, 0, 0, 0.65);
+  --shadow-ring: 0 0 0 2px rgba(244, 244, 245, 0.1);
+  --moon-inner: rgba(60, 67, 92, 0.65);
+  --moon-outer: rgba(30, 33, 48, 0.55);
+  --moon-ring: rgba(104, 112, 145, 0.4);
+  --moon-shadow: rgba(12, 14, 28, 0.65);
+  --moon-core: rgba(144, 150, 196, 0.82);
+  --moon-glow: rgba(84, 91, 138, 0.38);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --transition-duration: 0ms;
+  }
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "hero",
+    "title": "Poster drop hero",
+    "description": "Homepage hero announcing the Johnny Blue Skies drop with copper skyline and midnight gradients.",
+    "images": {
+      "webp": "/darby/darby-home-hero-1600.webp 1600w, /darby/darby-home-hero-1200.webp 1200w, /darby/darby-home-hero-900.webp 900w, /darby/darby-home-hero-640.webp 640w",
+      "jpg": "/darby/darby-home-hero-1600.jpg 1600w, /darby/darby-home-hero-1200.jpg 1200w, /darby/darby-home-hero-900.jpg 900w, /darby/darby-home-hero-640.jpg 640w",
+      "fallback": "/darby/darby-home-hero-1200.jpg"
+    }
+  },
+  {
+    "id": "posters-grid",
+    "title": "Posters shop grid",
+    "description": "Grid showing matte, foil, and uncut editions with pricing and availability.",
+    "images": {
+      "webp": "/darby/darby-posters-grid-1600.webp 1600w, /darby/darby-posters-grid-1200.webp 1200w, /darby/darby-posters-grid-900.webp 900w, /darby/darby-posters-grid-640.webp 640w",
+      "jpg": "/darby/darby-posters-grid-1600.jpg 1600w, /darby/darby-posters-grid-1200.jpg 1200w, /darby/darby-posters-grid-900.jpg 900w, /darby/darby-posters-grid-640.jpg 640w",
+      "fallback": "/darby/darby-posters-grid-1200.jpg"
+    }
+  },
+  {
+    "id": "poster-detail",
+    "title": "Poster detail",
+    "description": "Edition detail page with variant selector, pricing, and add-to-cart flow for rainbow foil edition.",
+    "images": {
+      "webp": "/darby/darby-poster-detail-1600.webp 1600w, /darby/darby-poster-detail-1200.webp 1200w, /darby/darby-poster-detail-900.webp 900w, /darby/darby-poster-detail-640.webp 640w",
+      "jpg": "/darby/darby-poster-detail-1600.jpg 1600w, /darby/darby-poster-detail-1200.jpg 1200w, /darby/darby-poster-detail-900.jpg 900w, /darby/darby-poster-detail-640.jpg 640w",
+      "fallback": "/darby/darby-poster-detail-1200.jpg"
+    }
+  },
+  {
+    "id": "artwork-grid",
+    "title": "Artwork archive",
+    "description": "Artwork archive grid featuring graphite drawings and pastel studies from the studio.",
+    "images": {
+      "webp": "/darby/darby-artwork-grid-1600.webp 1600w, /darby/darby-artwork-grid-1200.webp 1200w, /darby/darby-artwork-grid-900.webp 900w, /darby/darby-artwork-grid-640.webp 640w",
+      "jpg": "/darby/darby-artwork-grid-1600.jpg 1600w, /darby/darby-artwork-grid-1200.jpg 1200w, /darby/darby-artwork-grid-900.jpg 900w, /darby/darby-artwork-grid-640.jpg 640w",
+      "fallback": "/darby/darby-artwork-grid-1200.jpg"
+    }
+  }
+]
